@@ -5,4 +5,5 @@ RUN apt-get update && apt-get install -y \
     cmake \
     g++ \
     gdb \
-    ninja-build
+    ninja-build \
+    ccache
