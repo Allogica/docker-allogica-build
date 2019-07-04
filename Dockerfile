@@ -10,6 +10,6 @@ RUN apt-get update && apt-get install -y \
     gdb \
     ninja-build \
     ccache
-RUN curl https://github.com/Kitware/CMake/releases/download/v3.15.0-rc2/cmake-3.15.0-rc2-Linux-x86_64.sh -L > cmake.sh && \
+RUN curl https://github.com/Kitware/CMake/releases/download/v3.15.0-rc3/cmake-3.15.0-rc3-Linux-x86_64.sh -L > cmake.sh && \
 	sh ./cmake.sh --skip-license --prefix=/usr/local && \
 	rm cmake.sh
